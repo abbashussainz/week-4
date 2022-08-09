@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0ch;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* login page  */
+#nav {
+  background-color: black;
+}
+
+.log-img {
+  background-image: url(https://i.pinimg.com/564x/94/50/4c/94504c81d1e288e9b8694017f4ec6510.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  width: 75vh;
+}
+
+input::placeholder {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+
+
+#username,
+#password {
+  border: none transparent;
+  outline: none;
+  background-color: black;
+  color: aliceblue;
+  width: 30vw;
+  font-size: 1rem;
+}
+
+.log-button {
+  color: black;
+  display: block;
+  background-color: rgb(36, 116, 16);
+  border-radius: 30px;
+  width: 25vw;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.log-col {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.log-col1 {
+  background-color: black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
+/*  dash */
+.card-body {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 50px;
+}
+
+#dash {
+  overflow-x: hidden;
+  background-color: darkgrey;
+
+}
+
+#logout-btn {
+  font-weight: bolder;
+  border: none;
+  background-color: green;
+  color: black;
+  width: 100vw;
+  height: 50px;
+}

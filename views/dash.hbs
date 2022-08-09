@@ -1,0 +1,47 @@
+<body id="dash">
+    <div class="cotainer">
+        {{#each content}}
+        <div class="row">
+            <div class="col p-0 " style="width: 100vw;">
+                <div class="card" style="width: 100vw;">
+                    <img src="{{this.img}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1>{{this.title}}</h1>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente hic
+                            repudiandae nesciunt animi doloribus quidem impedit eaque eum perspiciatis et
+                            necessitatibus,
+                            provident delectus. Recusandae hic repellat ex provident soluta? Commodi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rem magnam dicta
+                            veritatis
+                            quas, laudantium tenetur consectetur maxime. Porro dolores nisi magnam corporis neque,
+                            quos
+                            odit
+                            ex incidunt aperiam impedit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugiat nobis
+                            cupiditate
+                            dolore est ducimus nihil quae. Neque ducimus aut, alias, nobis tenetur sed totam
+                            mollitia
+                            unde
+                            eligendi veniam doloremque.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab optio quibusdam
+                            explicabo
+                            modi
+                            provident cum dolor pariatur totam voluptas, fuga deleniti porro dolorem perferendis
+                            commodi
+                            at
+                            nesciunt sit voluptates.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aliquam placeat
+                            temporibus atque optio libero corporis nulla vel nobis deleniti, consequatur saepe
+                            sapiente
+                            voluptatem fugiat dolores incidunt cumque ratione repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <form action="/logout" method="get">
+        <button id="logout-btn">logout</button>
+    </form>
+</body>

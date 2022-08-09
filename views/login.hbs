@@ -1,0 +1,23 @@
+<section>
+    <div class="container mt-5 ">
+        <div class="col">
+            <div class="row">
+                <div class="col-6 log-img log-col">
+                </div>
+                <div class="col-6 text-center log-col1">
+                    <h1 class="mt-5" style="color:white;">Log in</h1>
+                    <h2>
+                        <form class="mt-5" action="/login" method="post">
+                            <input type="text" id="username" name="username" placeholder="Username:" required><br>
+                            <input type="text" class="mt-5" id="password" name="password" placeholder="Password:"
+                                required>
+                            <button class="log-button ml-3 mt-5">Log in</button>
+
+                        </form>
+                    </h2>
+                    <p style="color: rgb(255, 1, 1);">{{message}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
